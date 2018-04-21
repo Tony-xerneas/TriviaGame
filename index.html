@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Trivia | The Horror!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body background="assets/images/shapes.jpg">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <div>
+        <button id="start-game">Start Game</button>
+    </div>
+    <div class="myDIV">
+        <div class="questions">
+            <div id="dispBox">
+                <h1>Who's That Pokemon?</h1>
+                <div id="cDTimer">Time Left: 30 seconds</div>
+                <hr>
+                <div id="answers">
+                    <form action="options">
+                        <p>Question 1: The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people
+                            to pass on. </p>
+                        <input type="radio" name="option" value="option 1"> Lampent
+                        <input type="radio" name="option" value="option 2"> Misdreavous
+                        <input type="radio" name="option" value="option 3"> Abra
+                        <hr>
+                    </form>
+                </div>
+                <div class="question">
+                    <div id="answers">
+                        <p>Question 2: Each of them carries a mask that used to be its face when it was human. Sometimes they
+                            look at it and cry.</p>
+                        <input type="radio" name="option" value="option 1"> Gengar
+                        <input type="radio" name="option" value="option 2"> Mimikyu
+                        <input type="radio" name="option" value="option 3"> Yamask
+                        <hr>
+                        </form>
+                    </div>
+                </div>
+                <div class="question">
+                    <div id="answers">
+                        <p>Question 3: These Pokémon are called the "Signpost for Wandering Spirits." Children holding them
+                            sometimes vanish. </p>
+                        <input type="radio" name="option" value="option 1"> Floatzel
+                        <input type="radio" name="option" value="option 2"> Drifloon
+                        <input type="radio" name="option" value="option 3"> Sandyghast
+                        <hr>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <button id="submit-answer">Check Answers</button>
+                </div>
+
+                <div class="results">
+                    <p id="correct-answers">Correct answers:</p>
+                    <p id="incorrect-answers">Incorrect answers:</p>
+                    <p id="unanswered">Unanswered:</p>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
